@@ -1,14 +1,17 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   main.cpp                                           :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: joeyscags <jcupp@student.42heilbronn.de    +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2026/01/07 14:19:11 by joeyscags         #+#    #+#             */
+/*   Updated: 2026/01/07 14:27:12 by joeyscags        ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 #include "Animal.hpp"
 
 int main() {
-    std::cout << "=== Testing Animal class ===" << std::endl;
-    const Animal* meta = new Animal();
-    
-    std::cout << "\nType: " << meta->getType() << std::endl;
-    meta->makeSound();
-    
-    std::cout << "\n=== Cleanup ===" << std::endl;
-    delete meta;
-    
     return 0;
 }
